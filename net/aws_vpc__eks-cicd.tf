@@ -2,7 +2,7 @@
 # aws_vpc.vpc-cicd:
 resource "aws_vpc" "vpc-cicd" {
   assign_generated_ipv6_cidr_block = false
-  cidr_block                       = "172.30.0.0/24"
+  cidr_block                       = "10.123.0.0/16"
   enable_classiclink               = false
   enable_classiclink_dns_support   = false
   enable_dns_hostnames             = false
